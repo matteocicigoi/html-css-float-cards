@@ -16,7 +16,7 @@ body{
 /* Header */
 header{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 40px;
 }
 header h1{
@@ -27,7 +27,32 @@ header h1{
 /* Main */
 .col{
     float: left;
-    width: calc(100% / 3 - 20px);
-    margin: 10px;
-    background-color: blue;
+    width: calc(100% / 3 - 36px);
+    margin: 18px;
+    background-color: #0F0E17;
+}
+.col .image{
+    float: left;
+    width: 24%;
+    color: white;
+
+}
+img{
+    width: 100%;
+    display: block;
+}
+.col .info{
+    float: left;
+    width: 76%;
+    color: white;
+    padding: 15px;
+
+}
+.info h2{
+    margin-bottom: 3px;
+}
+.info a{
+    display: block;
+    color: #00BDF3;
+    text-decoration: none;
 }
